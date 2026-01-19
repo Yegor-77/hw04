@@ -1,0 +1,21 @@
+{
+  "name": "hw04",
+  "version": "1.0.0",
+  "description": "my firstee project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yegor-77/hw04.git"
+  },
+  "keywords": [],
+  "author": "yeggor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yegor-77/hw04/issues"
+  },
+  "homepage": "https://github.com/Yegor-77/hw04#readme"
+}
