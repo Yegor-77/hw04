@@ -1,12 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Практична робота setInterval</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <script src="./my-first-node-project/main.js"></script>
-    <script src="./my-first-node-project/package.json"></script>
+    <h1>Робота з setInterval</h1>
+
+    <section>
+      <h2>///1 Таймер інтервалу</h2>
+      <button onclick="startInterval()">Старт</button>
+      <pre id="output1"></pre>
+    </section>
+
+    <section>
+      <h2>///2 Анімація елементів</h2>
+      <button onclick="startAnimation()">Старт анімації</button>
+      <div class="box" id="box1"></div>
+      <div class="box" id="box2"></div>
+    </section>
+
+    <section>
+      <h2>///3 Інтерактивна гра</h2>
+      <p>Очки: <span id="score">0</span></p>
+      <button onclick="startGame()">Почати гру</button>
+      <div id="gameArea"></div>
+    </section>
+
+    <section>
+      <h2>///4 Контроль часу</h2>
+      <input type="number" id="seconds" placeholder="Введіть секунди" />
+      <button onclick="startTimer()">Старт</button>
+      <p id="timer"></p>
+    </section>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>
